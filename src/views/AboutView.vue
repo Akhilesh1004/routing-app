@@ -1,15 +1,12 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+	<main class="container">
+        <h1>About</h1>
+		<p>This is the about page of the app, contact us if it does not work as normal.</p>
+	</main>
 </template>
 
-<style>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
-}
+<style scoped>
+    p {
+        text-align: center;
+    }
 </style>
